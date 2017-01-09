@@ -1,0 +1,3 @@
+inotify
+boto3
+daemonize
