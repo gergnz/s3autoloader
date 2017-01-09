@@ -6,6 +6,8 @@ This uses the inotify module in python, and the s3transfer boto3 helper to uploa
 
 This will only create one event once the file is completely uploaded regardless of whether the S3transfer decides to do a multipart upload. It will also NOT generate a zero length event.
 
+Note: This only works on Linux at this time, and is designed to work with python3 (I haven't testing it with 2.7 or 2.6)
+
 ## Requirements
 * Daemonize
 * inotify
